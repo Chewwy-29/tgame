@@ -1,0 +1,269 @@
+.bg{
+  background-image: url('a.jpg');
+   min-height:450px;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  
+  
+  
+
+top:180px
+
+}
+@media (min-width: 345px) and (max-width:763px){
+.bg{
+  min-height: 540px;
+  top:400px;  
+}  }
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 16px;
+}
+.navbar{
+  float:right;border-radius:12px;
+
+
+
+box-shadow:  5px 5px 11px #bebebe,
+             -5px -5px 11px #ffffff;
+height: 64px;
+
+
+         
+}
+@media (min-width: 345px) and (max-width:763px){
+.navbar{float: right;
+  border-radius:12px;height: auto;
+
+}
+
+
+}  
+body{
+  background-color: #F2F3F4;
+  color: black;font-size: 18px
+}
+.navbar a{
+font-size: 18px;font-style: initial;
+
+
+}
+.top-left {
+  position: absolute;
+  top:0;
+  left: 16px;background:#E2252B;
+font-weight: bolder;
+           
+             height: 67px;
+           
+             padding: 18px 9px;
+             color: white;
+             font-family: serif;
+             font-size: 22px;
+             font-style: italic;
+             width: 167px;
+             text-align: center;
+         
+ border-radius: 12px;
+
+box-shadow:  -20px -20px 91px #6c6c6c,
+             20px 20px 91px #ffffff;
+}
+@media (min-width: 345px)and (max-width: 565px)
+{
+.top-left{
+ left: 3px
+}}
+.img1{
+  width: 12%;float: left;margin: 23px
+
+}
+@media (min-width: 345px)and 
+(max-width: 763px)
+{
+.img1{
+  width:200px}
+}.pa{
+  float: left;
+  font-family:serif;
+  color: #00203FFF;margin: 12px;
+  font-weight: bold
+}.top {
+   border-radius: 50px;
+background: white;
+box-shadow:  
+5px 5px 11px #bebebe,
+             -5px -5px 11px #ffffff;
+width: 46%;
+height:423px ; 
+ position:absolute;
+  top: 42%;
+  left:12px;
+  
+  z-index: 2;
+ 
+  padding: 20px;
+  text-align: left;
+  color: #00203FFF;
+
+
+}@media (min-width: 345px)and 
+(max-width: 763px){
+  .top{
+    width: 90%;
+    top: 60%;
+    height: 500px
+
+  }
+}
+.b{
+  border-radius: 12px;
+  width: 37%;display:inline-block;
+
+}
+@media (min-width: 345px)and 
+(max-width: 763px){
+  .b{
+    width: 70%
+  }
+}.con {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.l{
+  border-radius: 12px;
+  width: 40%;
+  left: 100px;
+  position: relative;box-shadow:  
+5px 5px 11px #bebebe,
+             -5px -5px 11px #ffffff;
+             height: 254px;
+
+}@media (min-width: 345px)and 
+(max-width: 763px){
+  .l{
+    width: 81%;
+   display: block;
+   left: 47px
+  }
+}* {
+  box-sizing: border-box;
+}
+
+.col{
+  color: black;
+  border:1px solid black;
+  height: 300px;
+
+}@media only screen and
+ (max-width: 780px){
+  .col{
+    padding: 0;
+    margin: 0;
+    height:467px
+  }
+ }
+
+.aa{
+  background-image: url(aa.jpg);
+   min-height:450px;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  
+  
+  filter: opacity(1) contrast(100%) hue-rotate(320deg);
+-webkit-filter: opacity(1) contrast(100%) hue-rotate(320deg);
+
+top:180px
+
+}@media (min-width: 345px)and 
+(max-width: 763px){
+  .aa{
+    min-height: 750px
+  }
+}
+.centered {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: serif;
+  text-align: center;
+
+text-shadow: 4px -4px 8px #5b5b5b,
+-4px 4px 8px #ffffff;
+}
+.ce {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: serif;
+  text-align: center;
+
+}@media (min-width: 345px)and 
+(max-width: 763px){
+  .centered{
+    top: 23%
+  }
+}
+@media (min-width: 345px)and 
+(max-width: 763px){
+  .ce{
+    top: 64%
+  }
+}
+
+.jk{
+  border-radius: 50px;
+  width: 45%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background:white;
+  height:250px;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+@media (min-width: 345px)and 
+(max-width: 763px){
+  .kl{
+    width: 44%
+  }
+}
+.kl{
+  width: 24%
+}.col-container {
+  display: table;
+  width: 100%;text-align: center;
+}
+.cold{
+  display: table-cell;
+  padding: 16px;color: black
+
+}@media only screen and
+ (max-width: 780px){
+  .cold{
+   display: block;
+  padding: 16px;
+  }
+ }
+@media (min-width: 345px)and 
+(max-width: 763px){
+  .pp{
+    width:100%
+  }
+}
